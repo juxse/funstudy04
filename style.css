@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px 50px;
+    background-image: linear-gradient(to bottom right, beige, yellow);
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+}
+
+.nav button{
+    border-style: none;
+    background-color:transparent;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 5px;
+}
+
+.headerKiri img{
+    width: 20px;
+    height: 20px
+}
+
+.header{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerKiri{
+    display: flex;
+    
+}
+
+.headerKanan{
+    display: flex;
+}
+
+.isian{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.isianKiri{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    display: flex;
+    padding-top: 10px;
+}
+
+.isianKiri img{
+    width: 30px;
+}
+
+.isianKiri img:hover{
+    width: 35px;
+    vertical-align: middle;
+}
+
+.title{
+    display: flex;
+    max-width: 50%;
+}
+
+.desc{
+    padding-top: 10px;
+    display: flex;
+    max-width: 70%;
+}
+
+.replaces{
+    padding-top: 10px;
+}
+
+.isianKanan img{
+    width: 450px;
+    border: 10px;
+    border-radius: 20px;
+}
+
+.ai{
+    display: flex;
+    gap: 10px;
+}
